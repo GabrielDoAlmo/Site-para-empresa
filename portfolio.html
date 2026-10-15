@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfólio - ASAS – Instalações Elétricas e Hidrossanitárias</title>
+<link rel="icon" href="assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#062a4d;--blue:#0b5cab;--sky:#008be2;--gold:#f2a71b;--bg:#f3f7fb;--line:#d9e5f1;--tx:#1d2b3a;--mut:#56677a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:400 1rem/1.7 Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--tx)}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.c{width:min(1140px,92%);margin:auto}
+h1,h2,h3{color:var(--navy);line-height:1.2}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;margin-bottom:.7rem}
+h3{font-size:1.1rem;margin-bottom:.4rem}
+.sec{padding:84px 0}.alt{background:var(--bg)}.m{margin:32px 0}
+.lead{color:var(--mut);max-width:64ch}
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+header.sc{box-shadow:0 4px 18px rgba(6,42,77,.12)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px}
+.nav img{height:54px}
+nav ul{display:flex;gap:4px}
+nav a{display:block;padding:10px 16px;border-radius:6px;font-weight:600;font-size:.92rem;color:var(--navy)}
+nav a:hover,nav a.on{color:var(--sky);background:var(--bg)}
+nav a.cta{background:var(--blue);color:#fff}nav a.cta:hover{background:var(--navy);color:#fff}
+.mb{display:none;background:none;border:0;font-size:2rem;line-height:1;color:var(--navy);cursor:pointer}
+.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(135deg,#041d38,#0b4f8a)}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(rgba(255,255,255,.16) 1.5px,transparent 1.5px) 0 0/22px 22px;-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000);mask-image:linear-gradient(90deg,transparent 30%,#000)}
+.hero .c{position:relative;padding:112px 0 104px}
+.hero h1{color:#fff;font-size:clamp(2rem,5vw,3.4rem);font-weight:800;max-width:15em}
+.hero h1 span{color:var(--gold)}
+.hero .lead{color:#d6e4f3;margin:22px 0 32px;font-size:1.1rem}
+.ph .c{padding:64px 0 56px}.ph .lead{margin-bottom:0}
+.g{display:grid;gap:22px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.w{background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.wi{height:200px;background:var(--bg);overflow:hidden}
+.wi img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.w:hover .wi img{transform:scale(1.05)}
+.wh{background:var(--navy);color:var(--gold);padding:10px 22px;font-weight:700;font-size:.85rem}
+.wb{padding:22px;flex:1}.cl{color:var(--blue);font-weight:600;font-size:.9rem;margin-bottom:8px}
+.wb p:not(.cl){color:var(--mut);font-size:.93rem}
+.wb small{display:block;margin-top:12px;color:var(--mut);font-size:.82rem;line-height:1.4}
+.lista-outras{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px;margin-top:32px}
+.lista-outras li{padding:14px 18px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:4px;font-size:.88rem;color:var(--mut)}
+.lista-outras li b{color:var(--navy);display:block;margin-bottom:2px}
+footer{background:#041d38;color:#b9c9da;padding:60px 0 0;font-size:.92rem}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1.3fr;gap:40px}
+footer h4{color:#fff;margin-bottom:12px}footer li{margin-bottom:8px}footer a:hover{color:var(--gold)}
+.fl{width:120px;padding:10px;background:#fff;border-radius:4px;margin-bottom:14px}
+.cp{margin-top:44px;padding:20px 0;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:.85rem}
+.wa{position:fixed;right:20px;bottom:20px;z-index:60;padding:12px 20px;border-radius:30px;background:#0f8a45;color:#fff;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+@media(max-width:820px){
+.mb{display:block}
+nav{position:absolute;top:78px;left:0;right:0;max-height:0;overflow:hidden;background:#fff;transition:max-height .3s}
+nav.open{max-height:420px;border-bottom:1px solid var(--line)}
+nav ul{flex-direction:column;padding:12px 4%}
+.fg{grid-template-columns:1fr}
+.sec{padding:56px 0}.hero .c{padding:72px 0}}
+</style>
+</head>
+<body>
+
+<section class="hero ph">
+  <div class="c">
+    <h1>Nosso <span>Portfólio</span></h1>
+    <p class="lead">Conheça as principais obras executadas pela ASAS em todo o Brasil.</p>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="c">
+    <h2>Obras em Destaque</h2>
+    <div class="g g3 m" data-obras="all"></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="c">
+    <h2>Outras Obras Executadas</h2>
+    <p class="lead">Além dos destaques, temos orgulho de ter participado de dezenas de outros projetos de grande relevância.</p>
+    <ul class="lista-outras" id="outras"></ul>
+  </div>
+</section>
+
+<script>
+const PAGES=[['index.html','Home'],['quem-somos.html','Quem somos'],['servicos.html','Serviços'],['portfolio.html','Portfólio'],['contato.html','Contato']];
+const OBRAS=[
+['Saúde','Hospital do Câncer (INCA)','Santa Barbara Engenharia','Reforma na maior unidade hospitalar do INCA e a de maior complexidade.','Praça Cruz Vermelha – Centro, Rio de Janeiro/RJ', 'assets/inca.jpg'],
+['Industrial','AMBEV – Cachoeira de Macacu','Construtora Solidum Ltda.','Instalações elétricas e hidráulicas com fornecimento de mão de obra, equipamentos e material.','Rod. RJ 122, km 35, nº 3500 – Cachoeira de Macacu/RJ', 'assets/ambev.jpg'],
+['Residencial','Rio Marina Resort','João Fortes Engenharia','Condomínio com 7 blocos, clube e marina, com vista para o mar.','Av. do Canal s/nº – Itacuruçá, Mangaratiba/RJ', 'assets/rio-marina.jpg'],
+['Saúde','Hospital Modular Emergencial','Carraca Engenharia','Instalações elétricas e hidráulicas com fornecimento de mão de obra.','Av. Baltimore, 22-92 – Jardim Esplanada, Nova Iguaçu/RJ', 'assets/hospital-modular.jpg'],
+['Comercial','Peninsula Open Mall','Construtora Dominus / Carvalho Hosken','29 salas e 19 lojas.','Rua Flamboyants, Lote 01, Quadra 06 – Barra da Tijuca/RJ', 'assets/peninsula.jpg'],
+['Residencial','Grandvalley Niterói','Construtora Gafisa','Instalações elétricas e hidráulicas com fornecimento de mão de obra, equipamentos e material.','Rua Dr. Paulo Cesar, 137 – Niterói/RJ', 'assets/grandvalley.jpg'],
+['Comercial','Touch Escritórios Inteligentes','João Fortes Engenharia S/A','Lojas com jirau, salas comerciais e salas duplex.','Rua Jardim Botânico, 568 – Rio de Janeiro/RJ', 'assets/touch.jpg'],
+['Residencial','Vila Pan-Americana','Construtora Agenco','Conjunto inaugurado em 2007, com 17 prédios e 1.480 apartamentos, construído para os Jogos Pan-Americanos.','Rio de Janeiro/RJ', 'assets/vila-pan.jpg']
+];
+const OUTRAS = [
+  "<b>Reforma e Manutenção do INCA I</b>Praça da Cruz Vermelha",
+  "<b>TIF</b>Rua do Acre (Santa Barbara Engenharia)",
+  "<b>TJRJ - Nova Iguaçu</b>(Santa Barbara Engenharia)",
+  "<b>TJRJ - Pavuna</b>(Santa Barbara Engenharia)",
+  "<b>TJRJ - Belford Roxo</b>(Paulitec)",
+  "<b>Reforma do Prédio da Receita Federal do Brasil</b>Av Presidente Antônio Carlos (Santa Barbara Engenharia)",
+  "<b>Hotel Macaé Palace</b>(Paulitec)",
+  "<b>Condomínio Vila Verde</b>Niterói (Agenco)",
+  "<b>Central Park Macaé</b>(Delta)",
+  "<b>Macaé Privilege</b>(Conasa)",
+  "<b>Imbetiba Macaé</b>(Delta)",
+  "<b>Novo Méier</b>(Delta)",
+  "<b>Speciale</b>(Delta)",
+  "<b>Morada das Garças</b>(Delta / OBR)",
+  "<b>Petrobrás Office</b>(Conasa)",
+  "<b>Hospital MDX</b>Barra da Tijuca",
+  "<b>Shopping Península</b>(Lotus)",
+  "<b>Café Gol</b>(Conasa)",
+  "<b>Condomínio Aquagreen</b>(Delta)",
+  "<b>Parque das Águas</b>(Rossi)",
+  "<b>Verano Rio II</b>(Dominus)",
+  "<b>Espaço Laguna</b>(Dominus)",
+  "<b>Grand Valley</b>(Gafisa)",
+  "<b>Condomínio Sertence</b>(Gafisa)",
+  "<b>Condomínio Rio Marina Resort</b>",
+  "<b>Fusion Complexo Metropolitano</b>(João Fortes Engenharia)",
+  "<b>West Vintage Residence Service</b>(João Fortes Engenharia)",
+  "<b>Ampliação de Casa Marcelo I</b>Condomínio Santa Mônica Jardins (João Fortes Engenharia)",
+  "<b>Execução de Casa Ricardo I</b>Condomínio Santa Mônica Jardins (Perpetuum)",
+  "<b>Execução de Casa Thiago I</b>Condomínio Wimbledon Park, Barra da Tijuca (Perpetuum)",
+  "<b>Condomínio RB 33</b>(Perpetuum)",
+  "<b>Execução de Laboratório RTS</b>(Perpetuum)",
+  "<b>Execução de Casa Rodrigo I</b>Lot Quintas do Barão BR 040 (Perpetuum)",
+  "<b>Execução de Casa Marioni</b>Rua Presidente Carlos Luz (Perpetuum)",
+  "<b>Execução de Casa Pedro I</b>Rua Joaquim Campos (São Bento)",
+  "<b>Execução de Casa Opy Ara I</b>Rua Visconde de Itaúna (Alcance)",
+  "<b>Execução de Casa Nicole e Claudio I</b>Av Heitor Doyle Maia (Alcance)",
+  "<b>Execução de Obras</b>(Alcance)"
+];
+
+const T1='21 96410-2652',T2='21 98291-3851',ZAP='5521982913851',MAIL='asdrubalf@asasnit.com.br';
+const tel=t=>'tel:+55'+t.replace(/\D/g,'');
+const cur=(location.pathname.split('/').pop()||'index').replace('.html','');
+
+document.body.insertAdjacentHTML('afterbegin',`<header><div class="c nav"><a href="index.html"><img src="assets/logo.png" alt="ASAS"></a><button class="mb" aria-label="Abrir menu" aria-expanded="false">☰</button><nav><ul>${PAGES.map(([h,t])=>`<li><a href="${h}" class="${h.replace('.html','')===cur?'on':''}${h=='contato.html'?' cta':''}">${t}</a></li>`).join('')}</ul></nav></div></header>`);
+document.body.insertAdjacentHTML('beforeend',`<footer><div class="c fg"><div><div class="fl"><img src="assets/logo.png" alt="ASAS"></div><p>Asas da Elétrica Hidráulica Ltda.<br>Instalações elétricas e hidrossanitárias em todo o Brasil desde 1997.</p></div><div><h4>Navegação</h4><ul>${PAGES.map(([h,t])=>`<li><a href="${h}">${t}</a></li>`).join('')}</ul></div><div><h4>Contato</h4><ul><li><a href="${tel(T1)}">${T1}</a> (Asdrubal Filho)</li><li><a href="${tel(T2)}">${T2}</a> (Augusto Santa Roza)</li><li><a href="mailto:${MAIL}">${MAIL}</a></li><li>Trav. Lengruber Filho, 770 – Engenhoca<br>Niterói/RJ – CEP 24.110-498</li></ul></div></div><div class="c cp">© ${new Date().getFullYear()} Asas da Elétrica Hidráulica Ltda. Todos os direitos reservados.</div></footer><a class="wa" href="https://wa.me/${ZAP}" target="_blank" rel="noopener">WhatsApp</a>`);
+
+document.querySelectorAll('[data-obras]').forEach(el=>{
+  const n=el.dataset.obras;
+  el.innerHTML=OBRAS.slice(0,n=='all'?OBRAS.length:+n).map(o=>`<article class="w"><div class="wi"><img src="${o[5]}" alt="${o[1]}" onerror="this.style.display='none'"></div><div class="wh">${o[0]}</div><div class="wb"><h3>${o[1]}</h3><p class="cl">${o[2]}</p><p>${o[3]}</p><small>${o[4]}</small></div></article>`).join('');
+});
+
+const ul = document.getElementById('outras');
+if(ul) ul.innerHTML = OUTRAS.map(o=>`<li>${o}</li>`).join('');
+
+const hd=document.querySelector('header'),mb=hd.querySelector('.mb'),nv=hd.querySelector('nav');
+mb.onclick=()=>mb.setAttribute('aria-expanded',nv.classList.toggle('open'));
+nv.onclick=e=>{if(e.target.tagName=='A')nv.classList.remove('open')};
+addEventListener('scroll',()=>hd.classList.toggle('sc',scrollY>10));
+</script>
+</body>
+</html>
